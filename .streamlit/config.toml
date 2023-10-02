@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FFA500"  # Orange, resembling a basketball
+backgroundColor = "#1E1E1E"  # Dark background
+secondaryBackgroundColor = "#333333"  # Slightly lighter background
+textColor = "#FFFFFF"  # White text for contrast
+font = "monospace"
