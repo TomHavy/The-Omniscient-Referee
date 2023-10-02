@@ -33,7 +33,20 @@ git clone https://github.com/your-username/the-omniscient-referee.git
 pip install -r requirements.txt
 ```
 
-3. Run streamlit app:
+3. Pull Elastic Search Docker image and run it:
+
+```
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+docker run -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.9.2
+```
+
+4. Ingest ES Vector Database:
+
+```
+src/core/ingest.py
+```
+
+5. Run streamlit app:
 
 ```
 streamlit run src/app.py
