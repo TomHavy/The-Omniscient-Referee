@@ -24,7 +24,7 @@ The Omniscient Referee is a specialized chatbot designed to provide expert answe
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/the-omniscient-referee.git
+git clone https://github.com/TomHavy/The-Omniscient-Referee.git
 ```
 
 2. Install the required packages:
